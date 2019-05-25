@@ -17,4 +17,4 @@ countGuanine = dna.count(guanine, 0, lenght)
 countThymine = dna.count(thymine, 0, lenght)
 countCytosine = dna.count(cytosine, 0, lenght)
 
-print "{} {} {} {}".format(countAtemine, countCytosine, countGuanine, countThymine)
+print ("{} {} {} {}".format(countAtemine, countCytosine, countGuanine, countThymine))

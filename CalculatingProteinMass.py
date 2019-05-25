@@ -32,4 +32,4 @@ proteintMass = 0.0
 for char in proteinSequence:
     proteintMass = proteintMass + massTable[char]
 
-print proteintMass
+print (proteintMass)

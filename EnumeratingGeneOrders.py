@@ -11,12 +11,12 @@ totalPermutations = 1
 
 for i in range(1,permutationLength+1):
     totalPermutations = totalPermutations*i
-print totalPermutations
+print (totalPermutations)
 
 
 gen = it.permutations(range(1,permutationLength+1))
 string = ()
 for i in gen:
-    print i
+    print (i)
 
-print string
+print (string)

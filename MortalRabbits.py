@@ -7,13 +7,13 @@ Created on Mon Nov 21 16:15:51 2016
 
 monthsToLive = 17
 monthsToReproduce = 97
-count = 1;
+count = 1
 
-matrix = [[0 for x in range(monthsToLive)] for y in range(monthsToReproduce)];
+matrix = [[0 for x in range(monthsToLive)] for y in range(monthsToReproduce)]
 
 matrix[0][0] = 1
 
-print matrix
+print (matrix)
 
 for i in range(1,monthsToReproduce):
     matrix[i][0] = count - matrix[i-1][0]
@@ -23,4 +23,4 @@ for i in range(1,monthsToReproduce):
         localCount = localCount + matrix[i][j]
     count = localCount
 
-print count;
+print (count)

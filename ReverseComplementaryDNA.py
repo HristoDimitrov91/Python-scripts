@@ -18,4 +18,4 @@ for i in dna:
       result = result + "G"
 
 revComplDna = result[::-1]
-print revComplDna
+print (revComplDna)

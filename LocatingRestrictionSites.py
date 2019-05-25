@@ -8,13 +8,13 @@ def searchForRestrictedSite(sequence, complementarySequence, wordLength):
     index = 1
     for i in range (1, len(sequence) - wordLength):
         sequencePart = sequence[i:wordLength+1]
-        print sequencePart
+        print (sequencePart)
         complementaryPart = complementarySequence[:wordLength]
-        print complementaryPart
+        print (complementaryPart)
         reverseComplementaryPart = complementaryPart[::-1]
-        print reverseComplementaryPart
+        print (reverseComplementaryPart)
         if sequencePart == reverseComplementaryPart:
-            print index, wordLength
+            print (index, wordLength)
 
 def getStringFromFile(fileObject):
     stringFile = ""
@@ -40,9 +40,9 @@ fastaFile = open("FastaRestrictionSites.fasta", "r")
 stringFile = getStringFromFile(fastaFile)
 
 rosalindSequence = stringFile[12:]
-print rosalindSequence
+print (rosalindSequence)
 complementarySequence = getComplementarySequence(rosalindSequence)
 
-print complementarySequence
+print (complementarySequence)
 
 searchForRestrictedSite(rosalindSequence, complementarySequence, 4)

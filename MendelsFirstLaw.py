@@ -36,4 +36,4 @@ propability += propabilityOnlyHeterozigot(heterozigot, totalCount)
 propability += propabilityHomoAndHeteroOne(heterozigot, homozigotRecessive, totalCount)
 propability += propabilityHomoAndHeteroTwo(heterozigot, homozigotRecessive, totalCount)
 
-print 1 -propability
+print (1 -propability)

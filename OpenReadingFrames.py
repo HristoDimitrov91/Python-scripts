@@ -39,8 +39,8 @@ for i in dnaSequence:
 
 dnaSequenceReverseComplement = result[::-1]
 
-print dnaSequence
-print dnaSequenceReverseComplement
+print (dnaSequence)
+print (dnaSequenceReverseComplement)
 
 dnaMatches = re.match(proteinPattern, dnaSequence)
 dnaReverseComplementMatches = re.match(proteinPattern, dnaSequenceReverseComplement)
@@ -55,4 +55,4 @@ if dnaReverseComplementMatches:
         protein = getProtein(match)
         proteinList.append(protein)
 
-print proteinList
+print (proteinList)

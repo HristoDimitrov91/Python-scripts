@@ -12,4 +12,4 @@ result = ""
 for m in re.finditer('(?=CATTTCTCA)', dna):
     result += str(m.start() + 1) + " "
 
-print result
+print (result)

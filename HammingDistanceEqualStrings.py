@@ -11,7 +11,7 @@ dnaStrainTwo = "AGCGTTTAAGGGGGCCTCACATAAATTTTCACCCCTATCGCTGTCTTAACGATACATTATAGGC
 result = 0
 
 for i in range(0, len(dnaStrainOne)):
-    if dnaStrainOne[i] <> dnaStrainTwo[i]:
+    if dnaStrainOne[i] != dnaStrainTwo[i]:
         result = result + 1
 
-print result
+print (result)

@@ -17,8 +17,5 @@ for i in range(1,months):
     pairsThatCannotReproduce = pairsThatCanReproduce * litter
     pairsThatCanReproduce = totalPairs
     totalPairs = pairsThatCannotReproduce + pairsThatCanReproduce
-    print pairsThatCannotReproduce
-    print pairsThatCanReproduce
-    print totalPairs
-    print '===='
-print totalPairs
+
+print (totalPairs)

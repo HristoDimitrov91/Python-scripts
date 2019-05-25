@@ -51,4 +51,4 @@ result = ""
 for kodon in splitRnaSequence:
     result = result + rnaCodoneTable[kodon]
     
-print result
+print (result)
